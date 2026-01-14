@@ -1,7 +1,7 @@
 // utils/api.js
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://job-portal-backend-topaz-kappa.vercel.app/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://job-portal-backend-three-gamma.vercel.app/api';
 
 // Create axios instance
 const api = axios.create({
